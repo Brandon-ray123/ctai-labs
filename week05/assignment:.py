@@ -24,3 +24,5 @@ message = "hello"
 for char in message:
     send_byte(ord(char))
     time.sleep(1)
+
+GPIO.cleanup()
